@@ -7,6 +7,7 @@ app.use(cors())
 
 const cocktails = {
     'old fashioned ': {
+        name: 'old fashoined',
         'ingredients': {
             ingredient1: 'Bourbon or Rye Whiskey',
             ingredient2: 'sugar',
@@ -48,6 +49,7 @@ const cocktails = {
         'fun facts': 'First recipe for a "cocktail" was described as a concoction of spirits, bitters, water and sugar in 1806, which is surprisingly close to the recipe of an Old Fashoined.'
     },
     'margarita': {
+        name: 'margarita',
         'ingredients': {
             ingredient1: 'tequila',
             ingredient2: 'triple sec',
@@ -89,6 +91,7 @@ const cocktails = {
         'fun facts': 'There is an account from 1936 of Iowa newspaper editor James Graham finding such a cocktail in Tijuana, years before any of the other margarita "creation myths".'
     },
     'espresso martini': {
+        name: 'espresso martini',
         'ingredients': {
             ingredient1: 'vodka',
             ingredient2: 'Kahlua',
@@ -130,6 +133,7 @@ const cocktails = {
         'fun facts': `Created by Dick Bradsell in the 1980s while at Fred's Club in London for a young lady who asked for something that would "Wake me up, and then fuck me up". `
     },
     'cosmopolitan': {
+        name: 'cosmopolitan',
         'ingredients': {
             ingredient1: 'Vodka Citron',
             ingredient2: 'Cointreau',
@@ -171,6 +175,7 @@ const cocktails = {
         'fun facts': 'The origins of the Cosmopolitain are disputed with many people claiming to have invented this drink, but it is thought that it originates from either a Daisy cocktail or the Kamikaze cocktail which both share similarities.'
     },
     'brandy daisy': {
+        name: 'brandy daisy',
         'ingredients': {
             ingredient1: 'brandy',
             ingredient2: 'yellow Chartreuse',
@@ -212,6 +217,7 @@ const cocktails = {
         'fun facts': 'A cocktail that first gained popularity in the late 19th century. The earliest known recipe was published in 1876.'
     },
     'kamikaze': {
+        name: 'kamikaze',
         'ingredients': {
             ingredient1: 'Vodka',
             ingredient2: 'triple sec',
@@ -253,6 +259,7 @@ const cocktails = {
         'fun facts': 'Kamikaze (神風) is a Japanese word literally meaning "divine wind"'
     },
     'unknown': {
+        name: 'unknown',
         'ingredients': {
             ingredient1: '',
             ingredient2: '',
